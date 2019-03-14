@@ -6,7 +6,7 @@ MaxMind GeoIP Update in Docker for Kubernetes Sidecars
 
 Run the image as a initializing sidecar to your workload that needs a fresh MaxMind DB:
 
-```
+```yaml
 ---
 apiVersion: v1
 kind: ConfigMap
